@@ -1,5 +1,4 @@
-package net.team2xh
-package deltav
+package net.team2xh.deltav
 
 import scalafx.application._
 import scalafx.application.JFXApp._
