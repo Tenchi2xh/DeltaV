@@ -20,7 +20,10 @@ object Build extends Build {
       libraryDependencies ++= Seq(
         lift_json,
         scalafx,
-        jgit
+        jgit,
+        typesafe_config,
+        logback,
+        logging
       ),
       libraryDependencies in Test ++= Seq(
         scalatest
